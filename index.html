@@ -3,26 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Drets en Joc</title>
 
-  <link rel="stylesheet" href="style.css" />
+  <title>Drets en Joc</title>
 
   <meta
     name="description"
-    content="Drets en Joc és un videojoc educatiu sobre drets humans desenvolupat en col·laboració amb l'Institut de Drets Humans de Catalunya."
+    content="Drets en Joc és un videojoc narratiu sobre drets humans i presa de decisions."
   />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
   <!-- HERO -->
   <header class="hero">
+    <div class="hero-overlay"></div>
+
+    <img class="hero-bg" src="images/image_ending_1.png" alt="Logo joc">
+
     <div class="hero-content">
+      <span class="hero-tag">
+        Videojoc educatiu · IDHC
+      </span>
+
       <h1>Drets en Joc</h1>
 
       <p class="subtitle">
-        Un videojoc narratiu sobre drets humans, justícia climàtica i
-        presa de decisions.
+        Pren decisions. Afronta conseqüències.
+        Reflexiona sobre els drets humans i la justícia global.
       </p>
 
       <div class="hero-buttons">
@@ -34,11 +48,8 @@
           Juga ara
         </a>
 
-        <a
-          href="#about"
-          class="btn secondary"
-        >
-          Saber-ne més
+        <a href="#about" class="btn secondary">
+          Descobreix el projecte
         </a>
       </div>
     </div>
@@ -46,66 +57,90 @@
 
   <!-- ABOUT -->
   <section id="about" class="section">
-    <div class="container">
-      <h2>Sobre el projecte</h2>
+    <div class="container narrow">
+
+      <div class="section-title">
+        <span>PROJECTE</span>
+        <h2>Sobre el joc</h2>
+      </div>
 
       <p>
-        <strong>Drets en Joc</strong> és un projecte de Treball de Fi de Grau
-        desenvolupat a la Facultat d'Informàtica de Barcelona (FIB - UPC)
+        <strong>Drets en Joc</strong> és un videojoc narratiu desenvolupat
         en col·laboració amb l'Institut de Drets Humans de Catalunya (IDHC).
       </p>
 
       <p>
-        El joc ha estat creat amb l'objectiu de promoure el coneixement i la
-        conscienciació sobre els drets humans a través d'una experiència
-        interactiva orientada especialment a públic jove.
+        El projecte busca divulgar els drets humans a través d'una experiència
+        interactiva inspirada en jocs de presa de decisions com
+        <em>Reigns</em>.
       </p>
 
       <p>
-        La jugabilitat es basa en prendre decisions narratives mitjançant
-        cartes interactives inspirades en videojocs com <em>Reigns</em>,
-        mostrant les conseqüències socials, mediambientals i globals de
-        cada elecció.
+        Cada carta presenta situacions socials, mediambientals i polítiques
+        que obliguen el jugador a prendre decisions difícils amb impacte global.
       </p>
+
     </div>
   </section>
 
-  <!-- GAMEPLAY -->
+  <!-- FEATURES -->
   <section class="section alt">
     <div class="container">
-      <h2>Com funciona?</h2>
+
+      <div class="section-title">
+        <span>GAMEPLAY</span>
+        <h2>Com funciona?</h2>
+      </div>
 
       <div class="features-grid">
 
         <article class="feature-card">
+          <div class="feature-images two">
+            <img src="images/gameplay_show_choices1.png" alt="">
+            <img src="images/gameplay_show_choices2.png" alt="">
+          </div>
+
           <h3>Decisions narratives</h3>
+
           <p>
-            Cada carta planteja situacions i dilemes relacionats amb els
-            drets humans, la desigualtat o la crisi climàtica.
+            Cada carta planteja dilemes sobre desigualtat,
+            sostenibilitat i drets humans.
           </p>
         </article>
 
         <article class="feature-card">
+
+          <div class="feature-icons">
+            <img src="images/globe_north.png" alt="">
+            <img src="images/globe_south.png" alt="">
+            <img src="images/globe.png" alt="">
+          </div>
+
+          <img
+            class="feature-wide"
+            src="images/globe_evolution.png"
+            alt=""
+          >
+
           <h3>Mesuradors globals</h3>
+
           <p>
-            Les teves accions afecten tres sistemes:
-            Nord Global, Sud Global i Medi Ambient.
+            Les teves accions afecten el Nord Global,
+            el Sud Global i el Medi Ambient.
           </p>
         </article>
 
         <article class="feature-card">
-          <h3>Conseqüències</h3>
-          <p>
-            Les decisions tenen impacte acumulatiu i poden desencadenar
-            crisis o finals diferents.
-          </p>
-        </article>
+          <div class="feature-images two">
+            <img src="images/gameplay_final1.png" alt="">
+            <img src="images/gameplay_final2.png" alt="">
+          </div>
 
-        <article class="feature-card">
-          <h3>Aprenentatge interactiu</h3>
+          <h3>Conseqüències reals</h3>
+
           <p>
-            El joc busca fomentar la reflexió crítica sobre les implicacions
-            socials i ambientals de les decisions quotidianes.
+            Les decisions acumulades poden desencadenar crisis,
+            desequilibris i finals diferents.
           </p>
         </article>
 
@@ -113,130 +148,171 @@
     </div>
   </section>
 
-  <!-- IMAGES -->
+  <!-- GALLERY -->
   <section class="section">
     <div class="container">
-      <h2>Captures del joc</h2>
+
+      <div class="section-title">
+        <span>CAPTURES</span>
+        <h2>Explora el joc</h2>
+      </div>
 
       <div class="gallery">
 
-        <!-- Substitueix aquestes imatges pels teus fitxers -->
-        <img src="images/gameplay1.png" alt="Captura del joc" />
-        <img src="images/gameplay2.png" alt="Pantalla de decisions" />
-        <img src="images/gameplay3.png" alt="Pantalla de joc" />
+        <img src="images/menu.png" alt="">
+        <img src="images/gameplay_intro1.png" alt="">
+        <img src="images/gameplay_crisis1.png" alt="">
+        <img src="images/gameover.png" alt="">
 
       </div>
+
     </div>
   </section>
 
   <!-- MOTIVATION -->
   <section class="section alt">
-    <div class="container">
-      <h2>Motivació</h2>
+    <div class="container narrow">
+
+      <div class="section-title">
+        <span>MOTIVACIÓ</span>
+        <h2>Per què existeix aquest joc?</h2>
+      </div>
 
       <p>
-        El projecte neix de la necessitat d'explorar noves formes de divulgar
-        els drets humans a les futures generacions utilitzant formats
-        interactius i atractius.
+        El projecte neix de la necessitat de crear noves formes
+        d'educació i sensibilització utilitzant videojocs
+        com a eina interactiva.
       </p>
 
-      <p>
-        L'objectiu no és només informar, sinó també generar reflexió sobre
-        problemàtiques actuals com:
-      </p>
+      <div class="topics">
+        <div class="topic">Justícia climàtica</div>
+        <div class="topic">Desigualtat global</div>
+        <div class="topic">Sostenibilitat</div>
+        <div class="topic">Discriminació</div>
+        <div class="topic">Impacte social</div>
+      </div>
 
-      <ul class="topics">
-        <li>Justícia climàtica</li>
-        <li>Desigualtats globals</li>
-        <li>Discriminació</li>
-        <li>Sostenibilitat</li>
-        <li>Impacte social de les decisions</li>
-      </ul>
     </div>
   </section>
 
   <!-- TECH -->
   <section class="section">
     <div class="container">
-      <h2>Tecnologies utilitzades</h2>
 
-      <div class="tech-list">
-        <span>Godot Engine</span>
-        <span>GDScript</span>
-        <span>Figma</span>
-        <span>Git</span>
-        <span>Android</span>
-        <span>IA Generativa</span>
+      <div class="section-title">
+        <span>TECNOLOGIES</span>
+        <h2>Eines utilitzades</h2>
       </div>
+
+      <div class="tech-grid">
+
+        <div class="tech-item">
+          <img src="images/logo_Godot.png" alt="">
+          <span>Godot</span>
+        </div>
+
+        <div class="tech-item">
+          <img src="images/logo_Figma.png" alt="">
+          <span>Figma</span>
+        </div>
+
+        <div class="tech-item">
+          <img src="images/logo_Gitlab.png" alt="">
+          <span>GitLab</span>
+        </div>
+
+        <div class="tech-item">
+          <img src="images/logo_Android.svg" alt="">
+          <span>Android</span>
+        </div>
+
+        <div class="tech-item">
+          <img src="images/logo_Qwen.png" alt="">
+          <span>IA Generativa</span>
+        </div>
+
+      </div>
+
     </div>
   </section>
 
   <!-- TEAM -->
   <section class="section alt">
     <div class="container">
-      <h2>Equip i col·laboradors</h2>
+
+      <div class="section-title">
+        <span>EQUIP</span>
+        <h2>Persones implicades</h2>
+      </div>
 
       <div class="team-grid">
 
         <article class="team-card">
+          <img src="images/Ivan_Lopez.jpg" alt="">
           <h3>Iván Lopez Liñán</h3>
-          <p>Desenvolupament, disseny i documentació del projecte.</p>
+          <p>Desenvolupament, game design i documentació.</p>
         </article>
 
         <article class="team-card">
-          <h3>Cristian Barrué Subirana</h3>
-          <p>Director del projecte.</p>
-        </article>
-
-        <article class="team-card">
-          <h3>Ulises Cortés</h3>
-          <p>Ponent i suport acadèmic.</p>
-        </article>
-
-        <article class="team-card">
+          <img src="images/Sergi_Guimera.jpg" alt="">
           <h3>Sergi Guimerà Roig</h3>
           <p>Suport en generació de continguts amb IA.</p>
         </article>
 
         <article class="team-card">
+          <img src="images/Cristian_Barrue.jpg" alt="">
+          <h3>Cristian Barrué</h3>
+          <p>Direcció del projecte.</p>
+        </article>
+
+        <article class="team-card">
+          <img src="images/Ulises_Cortes.jpeg" alt="">
+          <h3>Ulises Cortés</h3>
+          <p>Supervisió acadèmica.</p>
+        </article>
+
+        <article class="team-card">
+          <img src="images/logo_IDHC.png" alt="">
           <h3>IDHC</h3>
           <p>
-            Suport en narrativa, formació i dinamització dels continguts
-            sobre drets humans.
+            Col·laboració en narrativa i continguts
+            de drets humans.
           </p>
         </article>
 
       </div>
+
     </div>
   </section>
 
   <!-- CTA -->
   <section class="cta">
-    <div class="container">
-      <h2>Prova el joc</h2>
+
+    <div class="container narrow">
+
+      <h2>Juga ara</h2>
 
       <p>
-        Juga a la versió disponible a itch.io i descobreix com les teves
-        decisions poden afectar el món.
+        Disponible gratuïtament a itch.io
       </p>
 
       <a
         href="https://idhc.itch.io/ddhh"
         target="_blank"
-        class="btn primary"
+        class="btn primary large"
       >
         Obrir a itch.io
       </a>
+
     </div>
+
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="container">
-      <p>
-        Drets en Joc · TFG FIB UPC · 2026
-      </p>
-    </div>
+    <p>
+      Drets en Joc · IDHC · 2026
+    </p>
   </footer>
 
 </body>
