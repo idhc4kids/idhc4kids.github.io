@@ -1,52 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Human Rights Adventure</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drets en Joc</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <meta
+    name="description"
+    content="Drets en Joc és un videojoc educatiu sobre drets humans desenvolupat en col·laboració amb l'Institut de Drets Humans de Catalunya."
+  />
 </head>
+
 <body>
 
-<header>
-  <h1>Human Rights Adventure</h1>
-  <p>A game teaching children about equality, empathy and rights.</p>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Drets en Joc</h1>
 
-  <a class="play-button"
-     href="https://yourgame.itch.io/yourgame"
-     target="_blank">
-     Play the Game
-  </a>
-</header>
+      <p class="subtitle">
+        Un videojoc narratiu sobre drets humans, justícia climàtica i
+        presa de decisions.
+      </p>
 
-<section>
-  <h2>About the Project</h2>
-  <p>
-    This educational game helps children understand
-    fundamental human rights through stories and play.
-  </p>
-</section>
+      <div class="hero-buttons">
+        <a
+          href="https://idhc.itch.io/ddhh"
+          target="_blank"
+          class="btn primary"
+        >
+          Juga ara
+        </a>
 
-<section>
-  <h2>Gallery</h2>
+        <a
+          href="#about"
+          class="btn secondary"
+        >
+          Saber-ne més
+        </a>
+      </div>
+    </div>
+  </header>
 
-  <img src="images/screenshot1.png" alt="Game screenshot">
-  <img src="images/screenshot2.png" alt="Game screenshot">
-</section>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Sobre el projecte</h2>
 
-<section>
-  <h2>Creators & Funders</h2>
+      <p>
+        <strong>Drets en Joc</strong> és un projecte de Treball de Fi de Grau
+        desenvolupat a la Facultat d'Informàtica de Barcelona (FIB - UPC)
+        en col·laboració amb l'Institut de Drets Humans de Catalunya (IDHC).
+      </p>
 
-  <ul>
-    <li>Game Design: Your Name</li>
-    <li>Art: Artist Name</li>
-    <li>Funding: Organization Name</li>
-  </ul>
-</section>
+      <p>
+        El joc ha estat creat amb l'objectiu de promoure el coneixement i la
+        conscienciació sobre els drets humans a través d'una experiència
+        interactiva orientada especialment a públic jove.
+      </p>
 
-<footer>
-  <p>© 2026 Human Rights Adventure</p>
-</footer>
+      <p>
+        La jugabilitat es basa en prendre decisions narratives mitjançant
+        cartes interactives inspirades en videojocs com <em>Reigns</em>,
+        mostrant les conseqüències socials, mediambientals i globals de
+        cada elecció.
+      </p>
+    </div>
+  </section>
+
+  <!-- GAMEPLAY -->
+  <section class="section alt">
+    <div class="container">
+      <h2>Com funciona?</h2>
+
+      <div class="features-grid">
+
+        <article class="feature-card">
+          <h3>Decisions narratives</h3>
+          <p>
+            Cada carta planteja situacions i dilemes relacionats amb els
+            drets humans, la desigualtat o la crisi climàtica.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3>Mesuradors globals</h3>
+          <p>
+            Les teves accions afecten tres sistemes:
+            Nord Global, Sud Global i Medi Ambient.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3>Conseqüències</h3>
+          <p>
+            Les decisions tenen impacte acumulatiu i poden desencadenar
+            crisis o finals diferents.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3>Aprenentatge interactiu</h3>
+          <p>
+            El joc busca fomentar la reflexió crítica sobre les implicacions
+            socials i ambientals de les decisions quotidianes.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- IMAGES -->
+  <section class="section">
+    <div class="container">
+      <h2>Captures del joc</h2>
+
+      <div class="gallery">
+
+        <!-- Substitueix aquestes imatges pels teus fitxers -->
+        <img src="images/gameplay1.png" alt="Captura del joc" />
+        <img src="images/gameplay2.png" alt="Pantalla de decisions" />
+        <img src="images/gameplay3.png" alt="Pantalla de joc" />
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MOTIVATION -->
+  <section class="section alt">
+    <div class="container">
+      <h2>Motivació</h2>
+
+      <p>
+        El projecte neix de la necessitat d'explorar noves formes de divulgar
+        els drets humans a les futures generacions utilitzant formats
+        interactius i atractius.
+      </p>
+
+      <p>
+        L'objectiu no és només informar, sinó també generar reflexió sobre
+        problemàtiques actuals com:
+      </p>
+
+      <ul class="topics">
+        <li>Justícia climàtica</li>
+        <li>Desigualtats globals</li>
+        <li>Discriminació</li>
+        <li>Sostenibilitat</li>
+        <li>Impacte social de les decisions</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- TECH -->
+  <section class="section">
+    <div class="container">
+      <h2>Tecnologies utilitzades</h2>
+
+      <div class="tech-list">
+        <span>Godot Engine</span>
+        <span>GDScript</span>
+        <span>Figma</span>
+        <span>Git</span>
+        <span>Android</span>
+        <span>IA Generativa</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section alt">
+    <div class="container">
+      <h2>Equip i col·laboradors</h2>
+
+      <div class="team-grid">
+
+        <article class="team-card">
+          <h3>Iván Lopez Liñán</h3>
+          <p>Desenvolupament, disseny i documentació del projecte.</p>
+        </article>
+
+        <article class="team-card">
+          <h3>Cristian Barrué Subirana</h3>
+          <p>Director del projecte.</p>
+        </article>
+
+        <article class="team-card">
+          <h3>Ulises Cortés</h3>
+          <p>Ponent i suport acadèmic.</p>
+        </article>
+
+        <article class="team-card">
+          <h3>Sergi Guimerà Roig</h3>
+          <p>Suport en generació de continguts amb IA.</p>
+        </article>
+
+        <article class="team-card">
+          <h3>IDHC</h3>
+          <p>
+            Suport en narrativa, formació i dinamització dels continguts
+            sobre drets humans.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Prova el joc</h2>
+
+      <p>
+        Juga a la versió disponible a itch.io i descobreix com les teves
+        decisions poden afectar el món.
+      </p>
+
+      <a
+        href="https://idhc.itch.io/ddhh"
+        target="_blank"
+        class="btn primary"
+      >
+        Obrir a itch.io
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Drets en Joc · TFG FIB UPC · 2026
+      </p>
+    </div>
+  </footer>
 
 </body>
 </html>
